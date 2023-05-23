@@ -68,7 +68,7 @@ public class SwiftPusherBeamsPlugin: FlutterPluginAppLifeCycleDelegate, FlutterP
         }
         started = true
 
-        beamsClient?.registerForRemoteNotifications()
+        // beamsClient?.registerForRemoteNotifications()
     }
 
     public func addDeviceInterestInterest(_ interest: String, error: AutoreleasingUnsafeMutablePointer<FlutterError?>) {
